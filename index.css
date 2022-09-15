@@ -1,10 +1,25 @@
 .topnavbar{
     color: black;
 }
+
 #footer {
     position: fixed;
     bottom: 0;
     width: 100%;
     height: 30px;   /* Height of the footer */
     background: white;
+}
+
+#btnGroupAddon {
+    background-color:orange;
+}
+
+.linkHover {
+    text-decoration: none;
+    color: white;
+}
+
+.linkHover:hover {
+    text-decoration: underline;
+    color: white;
 }
