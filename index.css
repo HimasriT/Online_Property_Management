@@ -23,3 +23,8 @@
     text-decoration: underline;
     color: white;
 }
+
+.propertyCard {
+    margin-left: 3%;
+    margin-top: 3%;
+}

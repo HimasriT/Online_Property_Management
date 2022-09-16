@@ -16,194 +16,276 @@
 </head>
 
 <body>
-    <div id="header">
-        <div class="row">
-            <nav class="navbar navbar-expand-lg text-dark topnavbar px-3" style="background-color: #e3f2fd;">
-                <div class="container-fluid ">
-                    <div class="d-flex justify-content-start">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 list-group-horizontal ">
-                            <li class="nav-item px-2">
-                                <a class="navbar-item" href="#" style="text-decoration: none; color:gray">
-                                    <img src="img/Blissed.png" width="60" height="50" class="image-responsive">
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="d-flex justify-content-center ">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 list-group-horizontal ">
-                            <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
-                                <div class="input-group">
-                                    <input type="text" class="form-control" placeholder="Search..."
-                                        aria-label="Input group example" aria-describedby="btnGroupAddon">
-                                    <div class="input-group-text" id="btnGroupAddon">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                            fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
-                                            <path
-                                                d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
-                                        </svg>
-                                    </div>
-                                </div>
-                            </div>
-                        </ul>
-                    </div>
-                    <div class="d-flex justify-content-end ">
-                        <ul class="navbar-nav ">
-                            <li class="nav-item">
-                                <a class="nav-link hostLink" href="#">Become a host</a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                    aria-expanded="false">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                        class="bi bi-person-fill" viewBox="0 0 16 16">
-                                        <path
-                                            d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
-                                    </svg>
-                                </a>
-                                <ul class="dropdown-menu dropdown-menu-end">
-                                    <li><a class="dropdown-item" href="#">User Signup</a></li>
-                                    <li><a class="dropdown-item" href="#">User Login</a></li>
-                                    <li><a class="dropdown-item" href="#">Contact us</a></li>
-                                    <li><a class="dropdown-item" href="#">Help</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-        </div>
-    </div>
-
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-sm-auto bg-light sticky-top">
-                <div class="d-flex flex-sm-column flex-row flex-nowrap bg-light align-items-center sticky-top">
-                    <ul
-                        class="nav nav-pills nav-flush flex-sm-column flex-row flex-nowrap mb-auto mx-auto text-center justify-content-between w-100 px-3 align-items-center">
-                        <li class="nav-item">
-                            <a href="#" class="nav-link py-3 px-2" title="" data-bs-toggle="tooltip"
-                                data-bs-placement="right" data-bs-original-title="Home">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                    class="bi bi-house-fill" viewBox="0 0 16 16">
-                                    <path fill-rule="evenodd"
-                                        d="m8 3.293 6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293l6-6zm5-.793V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z" />
-                                    <path fill-rule="evenodd"
-                                        d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z" />
-                                </svg>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link py-3 px-2" title="" data-bs-toggle="tooltip"
-                                data-bs-placement="right" data-bs-original-title="Home">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                    class="bi bi-snow2" viewBox="0 0 16 16">
-                                    <path
-                                        d="M8 16a.5.5 0 0 1-.5-.5v-1.293l-.646.647a.5.5 0 0 1-.707-.708L7.5 12.793v-1.086l-.646.647a.5.5 0 0 1-.707-.708L7.5 10.293V8.866l-1.236.713-.495 1.85a.5.5 0 1 1-.966-.26l.237-.882-.94.542-.496 1.85a.5.5 0 1 1-.966-.26l.237-.882-1.12.646a.5.5 0 0 1-.5-.866l1.12-.646-.884-.237a.5.5 0 1 1 .26-.966l1.848.495.94-.542-.882-.237a.5.5 0 1 1 .258-.966l1.85.495L7 8l-1.236-.713-1.849.495a.5.5 0 1 1-.258-.966l.883-.237-.94-.542-1.85.495a.5.5 0 0 1-.258-.966l.883-.237-1.12-.646a.5.5 0 1 1 .5-.866l1.12.646-.237-.883a.5.5 0 0 1 .966-.258l.495 1.849.94.542-.236-.883a.5.5 0 0 1 .966-.258l.495 1.849 1.236.713V5.707L6.147 4.354a.5.5 0 1 1 .707-.708l.646.647V3.207L6.147 1.854a.5.5 0 1 1 .707-.708l.646.647V.5a.5.5 0 0 1 1 0v1.293l.647-.647a.5.5 0 1 1 .707.708L8.5 3.207v1.086l.647-.647a.5.5 0 1 1 .707.708L8.5 5.707v1.427l1.236-.713.495-1.85a.5.5 0 1 1 .966.26l-.236.882.94-.542.495-1.85a.5.5 0 1 1 .966.26l-.236.882 1.12-.646a.5.5 0 0 1 .5.866l-1.12.646.883.237a.5.5 0 1 1-.26.966l-1.848-.495-.94.542.883.237a.5.5 0 1 1-.26.966l-1.848-.495L9 8l1.236.713 1.849-.495a.5.5 0 0 1 .259.966l-.883.237.94.542 1.849-.495a.5.5 0 0 1 .259.966l-.883.237 1.12.646a.5.5 0 0 1-.5.866l-1.12-.646.236.883a.5.5 0 1 1-.966.258l-.495-1.849-.94-.542.236.883a.5.5 0 0 1-.966.258L9.736 9.58 8.5 8.866v1.427l1.354 1.353a.5.5 0 0 1-.707.708l-.647-.647v1.086l1.354 1.353a.5.5 0 0 1-.707.708l-.647-.647V15.5a.5.5 0 0 1-.5.5z" />
-                                </svg>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link py-3 px-2" title="" data-bs-toggle="tooltip"
-                                data-bs-placement="right" data-bs-original-title="Home">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                    class="bi bi-water" viewBox="0 0 16 16">
-                                    <path
-                                        d="M.036 3.314a.5.5 0 0 1 .65-.278l1.757.703a1.5 1.5 0 0 0 1.114 0l1.014-.406a2.5 2.5 0 0 1 1.857 0l1.015.406a1.5 1.5 0 0 0 1.114 0l1.014-.406a2.5 2.5 0 0 1 1.857 0l1.015.406a1.5 1.5 0 0 0 1.114 0l1.757-.703a.5.5 0 1 1 .372.928l-1.758.703a2.5 2.5 0 0 1-1.857 0l-1.014-.406a1.5 1.5 0 0 0-1.114 0l-1.015.406a2.5 2.5 0 0 1-1.857 0l-1.014-.406a1.5 1.5 0 0 0-1.114 0l-1.015.406a2.5 2.5 0 0 1-1.857 0L.314 3.964a.5.5 0 0 1-.278-.65zm0 3a.5.5 0 0 1 .65-.278l1.757.703a1.5 1.5 0 0 0 1.114 0l1.014-.406a2.5 2.5 0 0 1 1.857 0l1.015.406a1.5 1.5 0 0 0 1.114 0l1.014-.406a2.5 2.5 0 0 1 1.857 0l1.015.406a1.5 1.5 0 0 0 1.114 0l1.757-.703a.5.5 0 1 1 .372.928l-1.758.703a2.5 2.5 0 0 1-1.857 0l-1.014-.406a1.5 1.5 0 0 0-1.114 0l-1.015.406a2.5 2.5 0 0 1-1.857 0l-1.014-.406a1.5 1.5 0 0 0-1.114 0l-1.015.406a2.5 2.5 0 0 1-1.857 0L.314 6.964a.5.5 0 0 1-.278-.65zm0 3a.5.5 0 0 1 .65-.278l1.757.703a1.5 1.5 0 0 0 1.114 0l1.014-.406a2.5 2.5 0 0 1 1.857 0l1.015.406a1.5 1.5 0 0 0 1.114 0l1.014-.406a2.5 2.5 0 0 1 1.857 0l1.015.406a1.5 1.5 0 0 0 1.114 0l1.757-.703a.5.5 0 1 1 .372.928l-1.758.703a2.5 2.5 0 0 1-1.857 0l-1.014-.406a1.5 1.5 0 0 0-1.114 0l-1.015.406a2.5 2.5 0 0 1-1.857 0l-1.014-.406a1.5 1.5 0 0 0-1.114 0l-1.015.406a2.5 2.5 0 0 1-1.857 0L.314 9.964a.5.5 0 0 1-.278-.65zm0 3a.5.5 0 0 1 .65-.278l1.757.703a1.5 1.5 0 0 0 1.114 0l1.014-.406a2.5 2.5 0 0 1 1.857 0l1.015.406a1.5 1.5 0 0 0 1.114 0l1.014-.406a2.5 2.5 0 0 1 1.857 0l1.015.406a1.5 1.5 0 0 0 1.114 0l1.757-.703a.5.5 0 1 1 .372.928l-1.758.703a2.5 2.5 0 0 1-1.857 0l-1.014-.406a1.5 1.5 0 0 0-1.114 0l-1.015.406a2.5 2.5 0 0 1-1.857 0l-1.014-.406a1.5 1.5 0 0 0-1.114 0l-1.015.406a2.5 2.5 0 0 1-1.857 0l-1.757-.703a.5.5 0 0 1-.278-.65z" />
-                                </svg>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link py-3 px-2" title="" data-bs-toggle="tooltip"
-                                data-bs-placement="right" data-bs-original-title="Home">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                    class="bi bi-airplane" viewBox="0 0 16 16">
-                                    <path
-                                        d="M6.428 1.151C6.708.591 7.213 0 8 0s1.292.592 1.572 1.151C9.861 1.73 10 2.431 10 3v3.691l5.17 2.585a1.5 1.5 0 0 1 .83 1.342V12a.5.5 0 0 1-.582.493l-5.507-.918-.375 2.253 1.318 1.318A.5.5 0 0 1 10.5 16h-5a.5.5 0 0 1-.354-.854l1.319-1.318-.376-2.253-5.507.918A.5.5 0 0 1 0 12v-1.382a1.5 1.5 0 0 1 .83-1.342L6 6.691V3c0-.568.14-1.271.428-1.849Zm.894.448C7.111 2.02 7 2.569 7 3v4a.5.5 0 0 1-.276.447l-5.448 2.724a.5.5 0 0 0-.276.447v.792l5.418-.903a.5.5 0 0 1 .575.41l.5 3a.5.5 0 0 1-.14.437L6.708 15h2.586l-.647-.646a.5.5 0 0 1-.14-.436l.5-3a.5.5 0 0 1 .576-.411L15 11.41v-.792a.5.5 0 0 0-.276-.447L9.276 7.447A.5.5 0 0 1 9 7V3c0-.432-.11-.979-.322-1.401C8.458 1.159 8.213 1 8 1c-.213 0-.458.158-.678.599Z" />
-                                </svg>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link py-3 px-2" title="" data-bs-toggle="tooltip"
-                                data-bs-placement="right" data-bs-original-title="Home">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                    class="bi bi-cloud-drizzle-fill" viewBox="0 0 16 16">
-                                    <path
-                                        d="M4.158 12.025a.5.5 0 0 1 .316.633l-.5 1.5a.5.5 0 0 1-.948-.316l.5-1.5a.5.5 0 0 1 .632-.317zm6 0a.5.5 0 0 1 .316.633l-.5 1.5a.5.5 0 0 1-.948-.316l.5-1.5a.5.5 0 0 1 .632-.317zm-3.5 1.5a.5.5 0 0 1 .316.633l-.5 1.5a.5.5 0 0 1-.948-.316l.5-1.5a.5.5 0 0 1 .632-.317zm6 0a.5.5 0 0 1 .316.633l-.5 1.5a.5.5 0 1 1-.948-.316l.5-1.5a.5.5 0 0 1 .632-.317zm.747-8.498a5.001 5.001 0 0 0-9.499-1.004A3.5 3.5 0 1 0 3.5 11H13a3 3 0 0 0 .405-5.973z" />
-                                </svg>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link py-3 px-2" title="" data-bs-toggle="tooltip"
-                                data-bs-placement="right" data-bs-original-title="Home">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                    class="bi bi-sun-fill" viewBox="0 0 16 16">
-                                    <path
-                                        d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z" />
-                                </svg>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link py-3 px-2" title="" data-bs-toggle="tooltip"
-                                data-bs-placement="right" data-bs-original-title="Home">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                    class="bi bi-wind" viewBox="0 0 16 16">
-                                    <path
-                                        d="M12.5 2A2.5 2.5 0 0 0 10 4.5a.5.5 0 0 1-1 0A3.5 3.5 0 1 1 12.5 8H.5a.5.5 0 0 1 0-1h12a2.5 2.5 0 0 0 0-5zm-7 1a1 1 0 0 0-1 1 .5.5 0 0 1-1 0 2 2 0 1 1 2 2h-5a.5.5 0 0 1 0-1h5a1 1 0 0 0 0-2zM0 9.5A.5.5 0 0 1 .5 9h10.042a3 3 0 1 1-3 3 .5.5 0 0 1 1 0 2 2 0 1 0 2-2H.5a.5.5 0 0 1-.5-.5z" />
-                                </svg>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" class="nav-link py-3 px-2" title="" data-bs-toggle="tooltip"
-                                data-bs-placement="right" data-bs-original-title="Dashboard">
-                                <i class="bi-speedometer2 fs-1"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" class="nav-link py-3 px-2" title="" data-bs-toggle="tooltip"
-                                data-bs-placement="right" data-bs-original-title="Orders">
-                                <i class="bi-table fs-1"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" class="nav-link py-3 px-2" title="" data-bs-toggle="tooltip"
-                                data-bs-placement="right" data-bs-original-title="Products">
-                                <i class="bi-heart fs-1"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" class="nav-link py-3 px-2" title="" data-bs-toggle="tooltip"
-                                data-bs-placement="right" data-bs-original-title="Customers">
-                                <i class="bi-people fs-1"></i>
+    <div class="row" id="header">
+        <nav class="navbar navbar-expand-lg text-dark topnavbar px-3" style="background-color: #e3f2fd;">
+            <div class="container-fluid ">
+                <div class="d-flex justify-content-start">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 list-group-horizontal ">
+                        <li class="nav-item px-2">
+                            <a class="navbar-item" href="#" style="text-decoration: none; color:gray">
+                                <img src="img/Blissed.png" width="60" height="50" class="image-responsive">
                             </a>
                         </li>
                     </ul>
-                    <div class="dropdown">
-                        <a href="#"
-                            class="d-flex align-items-center justify-content-center p-3 link-dark text-decoration-none dropdown-toggle"
-                            id="dropdownUser3" data-bs-toggle="dropdown" aria-expanded="false">
-                            <i class="bi-person-circle h2"></i>
+                </div>
+                <div class="d-flex justify-content-center ">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 list-group-horizontal ">
+                        <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                            <div class="input-group">
+                                <input type="text" class="form-control" placeholder="Search..."
+                                    aria-label="Input group example" aria-describedby="btnGroupAddon">
+                                <div class="input-group-text" id="btnGroupAddon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                        class="bi bi-search" viewBox="0 0 16 16">
+                                        <path
+                                            d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </ul>
+                </div>
+                <div class="d-flex justify-content-end ">
+                    <ul class="navbar-nav ">
+                        <li class="nav-item">
+                            <a class="nav-link hostLink" href="#">Become a host</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-person-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
+                                </svg>
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-end">
+                                <li><a class="dropdown-item" href="#">User Signup</a></li>
+                                <li><a class="dropdown-item" href="#">User Login</a></li>
+                                <li><a class="dropdown-item" href="#">Contact us</a></li>
+                                <li><a class="dropdown-item" href="#">Help</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <div class="container-fluid row">
+        <div class="col-sm-auto bg-light sticky-top col-md-1">
+            <div class="d-flex flex-sm-column flex-row flex-nowrap bg-light align-items-center sticky-top">
+                <ul
+                    class="nav nav-pills nav-flush flex-sm-column flex-row flex-nowrap mb-auto mx-auto text-center justify-content-between w-100 px-3 align-items-center">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link py-3 px-2" title="" data-bs-toggle="tooltip"
+                            data-bs-placement="right" data-bs-original-title="Home">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-house-fill" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="m8 3.293 6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293l6-6zm5-.793V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z" />
+                                <path fill-rule="evenodd"
+                                    d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z" />
+                            </svg>
                         </a>
-                        <ul class="dropdown-menu text-small shadow" aria-labelledby="dropdownUser3">
-                            <li><a class="dropdown-item" href="#">New project...</a></li>
-                            <li><a class="dropdown-item" href="#">Settings</a></li>
-                            <li><a class="dropdown-item" href="#">Profile</a></li>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link py-3 px-2" title="" data-bs-toggle="tooltip"
+                            data-bs-placement="right" data-bs-original-title="Home">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-snow2" viewBox="0 0 16 16">
+                                <path
+                                    d="M8 16a.5.5 0 0 1-.5-.5v-1.293l-.646.647a.5.5 0 0 1-.707-.708L7.5 12.793v-1.086l-.646.647a.5.5 0 0 1-.707-.708L7.5 10.293V8.866l-1.236.713-.495 1.85a.5.5 0 1 1-.966-.26l.237-.882-.94.542-.496 1.85a.5.5 0 1 1-.966-.26l.237-.882-1.12.646a.5.5 0 0 1-.5-.866l1.12-.646-.884-.237a.5.5 0 1 1 .26-.966l1.848.495.94-.542-.882-.237a.5.5 0 1 1 .258-.966l1.85.495L7 8l-1.236-.713-1.849.495a.5.5 0 1 1-.258-.966l.883-.237-.94-.542-1.85.495a.5.5 0 0 1-.258-.966l.883-.237-1.12-.646a.5.5 0 1 1 .5-.866l1.12.646-.237-.883a.5.5 0 0 1 .966-.258l.495 1.849.94.542-.236-.883a.5.5 0 0 1 .966-.258l.495 1.849 1.236.713V5.707L6.147 4.354a.5.5 0 1 1 .707-.708l.646.647V3.207L6.147 1.854a.5.5 0 1 1 .707-.708l.646.647V.5a.5.5 0 0 1 1 0v1.293l.647-.647a.5.5 0 1 1 .707.708L8.5 3.207v1.086l.647-.647a.5.5 0 1 1 .707.708L8.5 5.707v1.427l1.236-.713.495-1.85a.5.5 0 1 1 .966.26l-.236.882.94-.542.495-1.85a.5.5 0 1 1 .966.26l-.236.882 1.12-.646a.5.5 0 0 1 .5.866l-1.12.646.883.237a.5.5 0 1 1-.26.966l-1.848-.495-.94.542.883.237a.5.5 0 1 1-.26.966l-1.848-.495L9 8l1.236.713 1.849-.495a.5.5 0 0 1 .259.966l-.883.237.94.542 1.849-.495a.5.5 0 0 1 .259.966l-.883.237 1.12.646a.5.5 0 0 1-.5.866l-1.12-.646.236.883a.5.5 0 1 1-.966.258l-.495-1.849-.94-.542.236.883a.5.5 0 0 1-.966.258L9.736 9.58 8.5 8.866v1.427l1.354 1.353a.5.5 0 0 1-.707.708l-.647-.647v1.086l1.354 1.353a.5.5 0 0 1-.707.708l-.647-.647V15.5a.5.5 0 0 1-.5.5z" />
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link py-3 px-2" title="" data-bs-toggle="tooltip"
+                            data-bs-placement="right" data-bs-original-title="Home">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-water" viewBox="0 0 16 16">
+                                <path
+                                    d="M.036 3.314a.5.5 0 0 1 .65-.278l1.757.703a1.5 1.5 0 0 0 1.114 0l1.014-.406a2.5 2.5 0 0 1 1.857 0l1.015.406a1.5 1.5 0 0 0 1.114 0l1.014-.406a2.5 2.5 0 0 1 1.857 0l1.015.406a1.5 1.5 0 0 0 1.114 0l1.757-.703a.5.5 0 1 1 .372.928l-1.758.703a2.5 2.5 0 0 1-1.857 0l-1.014-.406a1.5 1.5 0 0 0-1.114 0l-1.015.406a2.5 2.5 0 0 1-1.857 0l-1.014-.406a1.5 1.5 0 0 0-1.114 0l-1.015.406a2.5 2.5 0 0 1-1.857 0L.314 3.964a.5.5 0 0 1-.278-.65zm0 3a.5.5 0 0 1 .65-.278l1.757.703a1.5 1.5 0 0 0 1.114 0l1.014-.406a2.5 2.5 0 0 1 1.857 0l1.015.406a1.5 1.5 0 0 0 1.114 0l1.014-.406a2.5 2.5 0 0 1 1.857 0l1.015.406a1.5 1.5 0 0 0 1.114 0l1.757-.703a.5.5 0 1 1 .372.928l-1.758.703a2.5 2.5 0 0 1-1.857 0l-1.014-.406a1.5 1.5 0 0 0-1.114 0l-1.015.406a2.5 2.5 0 0 1-1.857 0l-1.014-.406a1.5 1.5 0 0 0-1.114 0l-1.015.406a2.5 2.5 0 0 1-1.857 0L.314 6.964a.5.5 0 0 1-.278-.65zm0 3a.5.5 0 0 1 .65-.278l1.757.703a1.5 1.5 0 0 0 1.114 0l1.014-.406a2.5 2.5 0 0 1 1.857 0l1.015.406a1.5 1.5 0 0 0 1.114 0l1.014-.406a2.5 2.5 0 0 1 1.857 0l1.015.406a1.5 1.5 0 0 0 1.114 0l1.757-.703a.5.5 0 1 1 .372.928l-1.758.703a2.5 2.5 0 0 1-1.857 0l-1.014-.406a1.5 1.5 0 0 0-1.114 0l-1.015.406a2.5 2.5 0 0 1-1.857 0l-1.014-.406a1.5 1.5 0 0 0-1.114 0l-1.015.406a2.5 2.5 0 0 1-1.857 0L.314 9.964a.5.5 0 0 1-.278-.65zm0 3a.5.5 0 0 1 .65-.278l1.757.703a1.5 1.5 0 0 0 1.114 0l1.014-.406a2.5 2.5 0 0 1 1.857 0l1.015.406a1.5 1.5 0 0 0 1.114 0l1.014-.406a2.5 2.5 0 0 1 1.857 0l1.015.406a1.5 1.5 0 0 0 1.114 0l1.757-.703a.5.5 0 1 1 .372.928l-1.758.703a2.5 2.5 0 0 1-1.857 0l-1.014-.406a1.5 1.5 0 0 0-1.114 0l-1.015.406a2.5 2.5 0 0 1-1.857 0l-1.014-.406a1.5 1.5 0 0 0-1.114 0l-1.015.406a2.5 2.5 0 0 1-1.857 0l-1.757-.703a.5.5 0 0 1-.278-.65z" />
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link py-3 px-2" title="" data-bs-toggle="tooltip"
+                            data-bs-placement="right" data-bs-original-title="Home">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-airplane" viewBox="0 0 16 16">
+                                <path
+                                    d="M6.428 1.151C6.708.591 7.213 0 8 0s1.292.592 1.572 1.151C9.861 1.73 10 2.431 10 3v3.691l5.17 2.585a1.5 1.5 0 0 1 .83 1.342V12a.5.5 0 0 1-.582.493l-5.507-.918-.375 2.253 1.318 1.318A.5.5 0 0 1 10.5 16h-5a.5.5 0 0 1-.354-.854l1.319-1.318-.376-2.253-5.507.918A.5.5 0 0 1 0 12v-1.382a1.5 1.5 0 0 1 .83-1.342L6 6.691V3c0-.568.14-1.271.428-1.849Zm.894.448C7.111 2.02 7 2.569 7 3v4a.5.5 0 0 1-.276.447l-5.448 2.724a.5.5 0 0 0-.276.447v.792l5.418-.903a.5.5 0 0 1 .575.41l.5 3a.5.5 0 0 1-.14.437L6.708 15h2.586l-.647-.646a.5.5 0 0 1-.14-.436l.5-3a.5.5 0 0 1 .576-.411L15 11.41v-.792a.5.5 0 0 0-.276-.447L9.276 7.447A.5.5 0 0 1 9 7V3c0-.432-.11-.979-.322-1.401C8.458 1.159 8.213 1 8 1c-.213 0-.458.158-.678.599Z" />
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link py-3 px-2" title="" data-bs-toggle="tooltip"
+                            data-bs-placement="right" data-bs-original-title="Home">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-cloud-drizzle-fill" viewBox="0 0 16 16">
+                                <path
+                                    d="M4.158 12.025a.5.5 0 0 1 .316.633l-.5 1.5a.5.5 0 0 1-.948-.316l.5-1.5a.5.5 0 0 1 .632-.317zm6 0a.5.5 0 0 1 .316.633l-.5 1.5a.5.5 0 0 1-.948-.316l.5-1.5a.5.5 0 0 1 .632-.317zm-3.5 1.5a.5.5 0 0 1 .316.633l-.5 1.5a.5.5 0 0 1-.948-.316l.5-1.5a.5.5 0 0 1 .632-.317zm6 0a.5.5 0 0 1 .316.633l-.5 1.5a.5.5 0 1 1-.948-.316l.5-1.5a.5.5 0 0 1 .632-.317zm.747-8.498a5.001 5.001 0 0 0-9.499-1.004A3.5 3.5 0 1 0 3.5 11H13a3 3 0 0 0 .405-5.973z" />
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link py-3 px-2" title="" data-bs-toggle="tooltip"
+                            data-bs-placement="right" data-bs-original-title="Home">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-sun-fill" viewBox="0 0 16 16">
+                                <path
+                                    d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z" />
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link py-3 px-2" title="" data-bs-toggle="tooltip"
+                            data-bs-placement="right" data-bs-original-title="Home">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-wind" viewBox="0 0 16 16">
+                                <path
+                                    d="M12.5 2A2.5 2.5 0 0 0 10 4.5a.5.5 0 0 1-1 0A3.5 3.5 0 1 1 12.5 8H.5a.5.5 0 0 1 0-1h12a2.5 2.5 0 0 0 0-5zm-7 1a1 1 0 0 0-1 1 .5.5 0 0 1-1 0 2 2 0 1 1 2 2h-5a.5.5 0 0 1 0-1h5a1 1 0 0 0 0-2zM0 9.5A.5.5 0 0 1 .5 9h10.042a3 3 0 1 1-3 3 .5.5 0 0 1 1 0 2 2 0 1 0 2-2H.5a.5.5 0 0 1-.5-.5z" />
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-link py-3 px-2" title="" data-bs-toggle="tooltip"
+                            data-bs-placement="right" data-bs-original-title="Dashboard">
+                            <i class="bi-speedometer2 fs-1"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-link py-3 px-2" title="" data-bs-toggle="tooltip"
+                            data-bs-placement="right" data-bs-original-title="Orders">
+                            <i class="bi-table fs-1"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-link py-3 px-2" title="" data-bs-toggle="tooltip"
+                            data-bs-placement="right" data-bs-original-title="Products">
+                            <i class="bi-heart fs-1"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-link py-3 px-2" title="" data-bs-toggle="tooltip"
+                            data-bs-placement="right" data-bs-original-title="Customers">
+                            <i class="bi-people fs-1"></i>
+                        </a>
+                    </li>
+                </ul>
+                <div class="dropdown">
+                    <a href="#"
+                        class="d-flex align-items-center justify-content-center p-3 link-dark text-decoration-none dropdown-toggle"
+                        id="dropdownUser3" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="bi-person-circle h2"></i>
+                    </a>
+                    <ul class="dropdown-menu text-small shadow" aria-labelledby="dropdownUser3">
+                        <li><a class="dropdown-item" href="#">New project...</a></li>
+                        <li><a class="dropdown-item" href="#">Settings</a></li>
+                        <li><a class="dropdown-item" href="#">Profile</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-11">
+            <div class="card-group propertyCard">
+                <div class="card">
+                    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img class="card-img-top d-block w-100" src="img/property-1.png" alt="Card image cap">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="img/property-1.1.png" alt="Second slide">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Belton, Texas</h5>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Hosted by Ray</li>
+                            <li class="list-group-item">Price: $1200 / night</li>
+                            <li class="list-group-item">Wifi, Complimentary Breakfast, Pool</li>
                         </ul>
+                        <p class="card-text"><small class="text-muted"><b>About:</b> Have fun with the family at this stylish fully remodeled cottage. Plenty of outdoor areas to hang out by a fire pit or dine outdoors.</small></p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img class="card-img-top d-block w-100 pt-1" src="img/property-2.png" alt="Card image cap">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="img/property-2.1.png" alt="Second slide">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">South Padre Island, Texas</h5>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Hosted by Stephanie</li>
+                            <li class="list-group-item">Price: $1500 / night</li>
+                            <li class="list-group-item">Wifi, Complimentary Breakfast, Beach</li>
+                        </ul>
+                        <p class="card-text"><small class="text-muted"><b>About:</b> This 3400 Square foot home delivers a high level of luxury finishes and details. Offers 1 King, 2 Queens with fulls over fulls with trundles.</small></p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img class="card-img-top d-block w-100" src="img/property-3.png" alt="Card image cap">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="img/property-1.png" alt="Second slide">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">New Mexico, Texas</h5>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Hosted by Brandy</li>
+                            <li class="list-group-item">Price: $800 / night</li>
+                            <li class="list-group-item">Wifi, Complimentary Breakfast, Stable</li>
+                        </ul>
+                        <p class="card-text"><small class="text-muted"><b>About:</b> This place is such a hidden gem. Every single detail in the house has a purpose and was carefully thought out.</small></p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img class="card-img-top d-block w-100" src="img/property-4.png" alt="Card image cap">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="img/property-1.png" alt="Second slide">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Houston, Texas</h5>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Hosted by Ram</li>
+                            <li class="list-group-item">Price: $1650 / night</li>
+                            <li class="list-group-item">Wifi, Kitchen, Complimentary Breakfast</li>
+                        </ul>
+                        <p class="card-text"><small class="text-muted"><b>About:</b> Our tiny home has everything you need for a lakefront family getaway on the Richland Chambers Reservoir.</small></p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="row">
-        <div id="footer">
-            <nav class="navbar navbar-dark bg-dark fixed-bottom ">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="#">© 2022 Site Inc,.</a>
-                    <a class="linkHover" href="#">Privacy </a>
-                    <a class="linkHover" href="#">Terms</a>
-                </div>
-            </nav>
-        </div>
+
+    <div class="row" id="footer">
+        <nav class="navbar navbar-dark bg-dark fixed-bottom ">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">© 2022 Site Inc,.</a>
+                <a class="linkHover" href="#">Privacy </a>
+                <a class="linkHover" href="#">Terms</a>
+            </div>
+        </nav>
     </div>
 </body>
-
 </html>
