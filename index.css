@@ -1,5 +1,7 @@
 .topnavbar{
     color: black;
+    background-color:rgb(97, 136, 208);
+    color : blueviolet;
 }
 
 #footer {
@@ -37,4 +39,20 @@
     height: 100%; 
     display: flex;
     flex-direction: column;
+    color: white;
+}
+
+.navbar-item{
+    text-decoration: none;
+    color: black; 
+}
+
+.navlink{
+    text-decoration: none;
+    color : black;
+}
+
+.navlink:hover {
+    text-decoration: underline;
+    color: blue;
 }
