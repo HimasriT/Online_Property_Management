@@ -3,114 +3,23 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>AirBNB</title>
+    <title>Blissed travels and Resorts</title>
+    <link rel="stylesheet" href="index.css" type="text/css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
     
-    <style>
-       
-        .topnavbar{
-            color: black;
-        }
-        #footer {
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-            height: 30px;   /* Height of the footer */
-            background: white;
-        }
-        .sidemenu{
-            height: 100%;
-            width: 5%;
-            float: left;
-        }
-        
-        .cardcustom {
-            box-shadow: 0px 4px 8px 0px #757575;
-            border-radius: 20px;
-            margin-left: 13% ;
-            margin-right: 10%;
-            background-color: #b25353;
-            width: 80%;
-            height: 100%;
-        }
-     
-        .carousel-indicators {
-        position: absolute;
-        bottom: -100px;
-    }
-
-
-    .carousel-indicators button {
-        cursor: pointer;
-        border-radius: 50% !important;
-        width: 20px !important;
-        height: 20px !important;
-        opacity: 0.5;
-        margin: 5px !important;
-    }
-    .custcarosel{
-        margin-left: 0%;
-        height: 100%;
-        border-radius: 20px;
-    }
-    .carousel-indicators button.active {
-        opacity: 1;
-        width: 30px !important;
-        height: 30px !important;
-        margin-top: 0px !important;
-        border: 2px solid #fff;
-    }
-    .div img {
-   width: auto;
-   height: auto;
-}
-        .social-connect{
-background-color: #df4b37;
-color: #fff;
-font-size: 20px
-}
-.social-connect {
-padding: 3px 0px 3px 3px;
-border-radius: 10px;
-cursor: pointer;
-border: 1px solid #E0E0E0
-}
-.social-connect:hover {
-background-color: #EEEEEE
-}
-picture {
-    display: block;
-    position: relative;
-    padding-top: 56.25%;
-}
-
- .outercard{
-    margin-top: 2%;
-    height: 100%;
-    margin-right: 0%; 
-    margin-left: 0%;
-
- }
- .innercard{
-    margin-top: 0%;
-    background: hsla(0, 0%, 100%, 0.8);
-    backdrop-filter: blur(30px);
-    height: 100%;
- }
-    </style>
 
     </head>
     <body>
         <div class="row" id="header">
-            <nav class="navbar navbar-expand-lg text-dark topnavbar px-3" style="background-color: #e3f2fd;">
+            <nav class="navbar navbar-expand-lg text-dark topnavbar px-3">
                 <div class="container-fluid ">
                     <div class="d-flex justify-content-start">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0 list-group-horizontal ">
                             <li class="nav-item px-2">
-                                <a class="navbar-item" href="#" style="text-decoration: none; color:gray">
+                                <a class="navbar-item" href="index.html" style="text-decoration: none; color:gray">
                                     <img src="img/Blissed.png" width="60" height="50" class="image-responsive">
                                 </a>
                             </li>
@@ -148,8 +57,8 @@ picture {
                                     </svg>
                                 </a>
                                 <ul class="dropdown-menu dropdown-menu-end">
-                                    <li><a class="dropdown-item" href="#">User Signup</a></li>
-                                    <li><a class="dropdown-item" href="#">User Login</a></li>
+                                    <li><a class="dropdown-item" href="signup.html">User Signup</a></li>
+                                    <li><a class="dropdown-item" href="login.html">User Login</a></li>
                                     <li><a class="dropdown-item" href="#">Contact us</a></li>
                                     <li><a class="dropdown-item" href="#">Help</a></li>
                                 </ul>
@@ -261,21 +170,21 @@ picture {
                       <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
                         <div class="carousel-inner" style="height: 500;">
                           <div class="carousel-item active">
-                           <picture> <img src="C:/Users/Greeshma Palisetty/Documents/GitHub/Online_Property_Management/images/1.jpg" class="w-100 rounded-4 shadow-4"/> </picture>
+                           <picture> <img id="cardimg" src="img/1.jpg" class="w-100 rounded-4 shadow-4"/> </picture>
                             <div class="carousel-caption d-none d-md-block">
                               <h5>Switzerland</h5>
                               <p>Alps Mountains</p>
                             </div>
                           </div>
                           <div class="carousel-item">
-                          <picture> <img src="C:/Users/Greeshma Palisetty/Documents/GitHub/Online_Property_Management/images/2.jpg"class="w-100 rounded-4 shadow-4" /> </picture>
+                          <picture> <img id="cardimg" src="img/2.jpg"class="w-100 rounded-4 shadow-4" /> </picture>
                             <div class="carousel-caption d-none d-md-block">
                               <h5>New York</h5>
                               <p>High Buildings</p>
                             </div>
                           </div>
                           <div class="carousel-item">
-                         <picture> <img src="C:/Users/Greeshma Palisetty/Documents/GitHub/Online_Property_Management/images/3.jpg"class="w-100 rounded-4 shadow-4" /> </picture>
+                         <picture> <img id="cardimg" src="img/3.jpg"class="w-100 rounded-4 shadow-4" /> </picture>
                             <div class="carousel-caption d-none d-md-block">
                               <h5>Las Vegas</h5>
                               <p>Nevada</p>
@@ -296,21 +205,21 @@ picture {
                       <div id="carouselExampleCaptions1" class="carousel slide" data-bs-ride="false" style="height: 500;">
                         <div class="carousel-inner">
                           <div class="carousel-item active">
-                          <picture> <img src="C:/Users/Greeshma Palisetty/Documents/GitHub/Online_Property_Management/images/4.jpg" class="w-100 rounded-4 shadow-4" /> </picture>
+                          <picture> <img id="cardimg" src="img/4.jpg" class="w-100 rounded-4 shadow-4" /> </picture>
                             <div class="carousel-caption d-none d-md-block">
                               <h5>Chicago</h5>
                               <p>Downtown</p>
                             </div>
                           </div>
                           <div class="carousel-item">
-                          <picture> <img src="C:/Users/Greeshma Palisetty/Documents/GitHub/Online_Property_Management/images/5.jpg"class="w-100 rounded-4 shadow-4" /> </picture>
+                          <picture> <img id="cardimg" src="img/5.jpg"class="w-100 rounded-4 shadow-4" /> </picture>
                             <div class="carousel-caption d-none d-md-block">
                               <h5>Universal Studios</h5>
                               <p>Florida</p>
                             </div>
                           </div>
                           <div class="carousel-item">
-                          <picture> <img src="C:/Users/Greeshma Palisetty/Documents/GitHub/Online_Property_Management/images/6.jpg" class="w-100 rounded-4 shadow-4"/> </picture>
+                          <picture> <img id="cardimg" src="img/6.jpg" class="w-100 rounded-4 shadow-4"/> </picture>
                             <div class="carousel-caption d-none d-md-block">
                               <h5>Dallas</h5>
                               <p>Skyline</p>
@@ -382,17 +291,15 @@ picture {
         </div>    
         </div>
         
-        
-        <footer><div id ="footer">
-            <nav class="navbar navbar-dark bg-dark fixed-bottom ">
+        <div class="row" id="footer">
+            <nav class="navbar navbar-dark bg-dark fixed-bottom">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="#">© 2020 Site Inc,.</a>
-                    <a href = "#">Privacy </a> 
-                    <a href = "#">Terms</a> 
+                    <a class="navbar-brand" href="#">© 2022 Site Inc,.</a>
+                    <a class="linkHover" href="#">Privacy </a>
+                    <a class="linkHover" href="#">Terms</a>
                 </div>
-            </nav>        
+            </nav>
         </div>
-            </footer>
         
     </body>
     
